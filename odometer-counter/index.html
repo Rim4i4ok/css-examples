@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>odometer counter</title>
+        <link rel="stylesheet" href="odometer-theme-car.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div>
+            <div class="imgBox">
+                <img src="img.jpg" />
+            </div>
+            <div id="odometer" class="odometer">000000</div>
+            <h2>Stormtroopers</h2>
+        </div>
+        <script src="odometer.min.js"></script>
+        <script type="text/javascript">
+            setTimeout(function() {
+                odometer.innerHTML = 157318;
+            });
+        </script>
+    </body>
+</html>
