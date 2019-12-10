@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;  
+    background: gray;  
+}
+
+.container {
+    width: 5rem;
+    height:12rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.tree {
+    width: 1rem;
+    height: 1rem;
+    animation: animate 1s infinite linear;    
+}
+
+@keyframes animate {
+    0% {
+        box-shadow: 
+        /* row 1 */     
+        6rem 0rem 0 -0.05rem rgb(93, 253, 0),
+        /* row 2 */       
+        5rem 1rem 0 -0.05rem rgb(93, 253, 0),       
+        6rem 1rem 0 -0.05rem rgb(93, 253, 0),
+        7rem 1rem 0 -0.05rem rgb(93, 253, 0),  
+        /* row 3 */       
+        4rem 2rem 0 -0.05rem rgb(93, 253, 0),       
+        5rem 2rem 0 -0.05rem rgb(93, 253, 0),       
+        6rem 2rem 0 -0.05rem rgb(93, 253, 0),
+        7rem 2rem 0 -0.05rem rgb(155, 7, 160),       
+        8rem 2rem 0 -0.05rem rgb(93, 253, 0),   
+        /* row 4 */       
+        3rem 3rem 0 -0.05rem rgb(93, 253, 0),       
+        4rem 3rem 0 -0.05rem rgb(93, 253, 0),       
+        5rem 3rem 0 -0.05rem rgb(15, 105, 207),       
+        6rem 3rem 0 -0.05rem rgb(93, 253, 0),
+        7rem 3rem 0 -0.05rem rgb(93, 253, 0),       
+        8rem 3rem 0 -0.05rem rgb(93, 253, 0),       
+        9rem 3rem 0 -0.05rem rgb(93, 253, 0), 
+        /* row 5 */        
+        4rem 4rem 0 -0.05rem rgb(93, 253, 0),       
+        5rem 4rem 0 -0.05rem rgb(93, 253, 0),       
+        6rem 4rem 0 -0.05rem rgb(93, 253, 0),
+        7rem 4rem 0 -0.05rem rgb(93, 253, 0),       
+        8rem 4rem 0 -0.05rem rgb(93, 253, 0), 
+        /* row 6 */       
+        3rem 5rem 0 -0.05rem rgb(93, 253, 0),       
+        4rem 5rem 0 -0.05rem rgb(93, 253, 0),       
+        5rem 5rem 0 -0.05rem rgb(93, 253, 0),       
+        6rem 5rem 0 -0.05rem rgb(234, 238, 6),
+        7rem 5rem 0 -0.05rem rgb(93, 253, 0),       
+        8rem 5rem 0 -0.05rem rgb(8, 129, 228),       
+        9rem 5rem 0 -0.05rem rgb(93, 253, 0), 
+        /* row 7 */      
+        2rem 6rem 0 -0.05rem rgb(93, 253, 0),       
+        3rem 6rem 0 -0.05rem rgb(93, 253, 0),       
+        4rem 6rem 0 -0.05rem rgb(171, 6, 204),       
+        5rem 6rem 0 -0.05rem rgb(93, 253, 0),       
+        6rem 6rem 0 -0.05rem rgb(93, 253, 0),
+        7rem 6rem 0 -0.05rem rgb(93, 253, 0),       
+        8rem 6rem 0 -0.05rem rgb(93, 253, 0),       
+        9rem 6rem 0 -0.05rem rgb(93, 253, 0),       
+        10rem 6rem 0 -0.05rem rgb(93, 253, 0),   
+        /* row 8 */       
+        1rem 7rem 0 -0.05rem rgb(93, 253, 0),       
+        2rem 7rem 0 -0.05rem rgb(93, 253, 0),       
+        3rem 7rem 0 -0.05rem rgb(93, 253, 0),       
+        4rem 7rem 0 -0.05rem rgb(93, 253, 0),       
+        5rem 7rem 0 -0.05rem rgb(93, 253, 0),       
+        6rem 7rem 0 -0.05rem rgb(93, 253, 0),
+        7rem 7rem 0 -0.05rem rgb(230, 6, 81),       
+        8rem 7rem 0 -0.05rem rgb(93, 253, 0),       
+        9rem 7rem 0 -0.05rem rgb(93, 253, 0),       
+        10rem 7rem 0 -0.05rem rgb(93, 253, 0),       
+        11rem 7rem 0 -0.05rem rgb(93, 253, 0),  
+        /* row 9 */       
+        3rem 8rem 0 -0.05rem rgb(93, 253, 0),       
+        4rem 8rem 0 -0.05rem rgb(93, 253, 0),       
+        5rem 8rem 0 -0.05rem rgb(93, 253, 0),       
+        6rem 8rem 0 -0.05rem rgb(93, 253, 0),
+        7rem 8rem 0 -0.05rem rgb(93, 253, 0),       
+        8rem 8rem 0 -0.05rem rgb(93, 253, 0),       
+        9rem 8rem 0 -0.05rem rgb(93, 253, 0),  
+        /* row 10 */      
+        2rem 9rem 0 -0.05rem rgb(93, 253, 0),       
+        3rem 9rem 0 -0.05rem rgb(93, 253, 0),       
+        4rem 9rem 0 -0.05rem rgb(20, 141, 221),       
+        5rem 9rem 0 -0.05rem rgb(93, 253, 0),       
+        6rem 9rem 0 -0.05rem rgb(93, 253, 0),
+        7rem 9rem 0 -0.05rem rgb(93, 253, 0),       
+        8rem 9rem 0 -0.05rem rgb(93, 253, 0),       
+        9rem 9rem 0 -0.05rem rgb(235, 11, 115),       
+        10rem 9rem 0 -0.05rem rgb(93, 253, 0),     
+        /* row 11 */      
+        1rem 10rem 0 -0.05rem rgb(93, 253, 0),       
+        2rem 10rem 0 -0.05rem rgb(93, 253, 0),       
+        3rem 10rem 0 -0.05rem rgb(93, 253, 0),       
+        4rem 10rem 0 -0.05rem rgb(93, 253, 0),       
+        5rem 10rem 0 -0.05rem rgb(93, 253, 0),       
+        6rem 10rem 0 -0.05rem rgb(93, 253, 0),
+        7rem 10rem 0 -0.05rem rgb(93, 253, 0),       
+        8rem 10rem 0 -0.05rem rgb(241, 219, 17),       
+        9rem 10rem 0 -0.05rem rgb(93, 253, 0),       
+        10rem 10rem 0 -0.05rem rgb(93, 253, 0),       
+        11rem 10rem 0 -0.05rem rgb(93, 253, 0), 
+        /* row 12 */
+        0rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        1rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        2rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        3rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        4rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        5rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        6rem 11rem 0 -0.05rem rgb(93, 253, 0),
+        7rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        8rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        9rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        10rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        11rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        12rem 11rem 0 -0.05rem rgb(93, 253, 0),
+        /* row 13 */      
+        5rem 12rem 0 -0.05rem brown,       
+        6rem 12rem 0 -0.05rem brown,
+        7rem 12rem 0 -0.05rem brown 
+    }
+    50% {
+        box-shadow: 
+        /* row 1 */     
+        6rem 0rem 0 -0.05rem rgb(93, 253, 0),
+        /* row 2 */       
+        5rem 1rem 0 -0.05rem rgb(93, 253, 0),       
+        6rem 1rem 0 -0.05rem rgb(93, 253, 0),
+        7rem 1rem 0 -0.05rem rgb(93, 253, 0),  
+        /* row 3 */       
+        4rem 2rem 0 -0.05rem rgb(93, 253, 0),       
+        5rem 2rem 0 -0.05rem rgb(93, 253, 0),       
+        6rem 2rem 0 -0.05rem rgb(93, 253, 0),
+        7rem 2rem 0 -0.05rem rgb(93, 253, 0),       
+        8rem 2rem 0 -0.05rem rgb(93, 253, 0),   
+        /* row 4 */       
+        3rem 3rem 0 -0.05rem rgb(93, 253, 0),       
+        4rem 3rem 0 -0.05rem rgb(93, 253, 0),       
+        5rem 3rem 0 -0.05rem rgb(15, 105, 207),   
+        6rem 3rem 0 -0.05rem rgb(93, 253, 0),
+        7rem 3rem 0 -0.05rem rgb(93, 253, 0),       
+        8rem 3rem 0 -0.05rem rgb(93, 253, 0),       
+        9rem 3rem 0 -0.05rem rgb(93, 253, 0), 
+        /* row 5 */        
+        4rem 4rem 0 -0.05rem rgb(93, 253, 0),       
+        5rem 4rem 0 -0.05rem rgb(93, 253, 0),       
+        6rem 4rem 0 -0.05rem rgb(93, 253, 0),
+        7rem 4rem 0 -0.05rem rgb(93, 253, 0),       
+        8rem 4rem 0 -0.05rem rgb(93, 253, 0), 
+        /* row 6 */       
+        3rem 5rem 0 -0.05rem rgb(93, 253, 0),       
+        4rem 5rem 0 -0.05rem rgb(93, 253, 0),       
+        5rem 5rem 0 -0.05rem rgb(93, 253, 0),       
+        6rem 5rem 0 -0.05rem rgb(234, 238, 6),
+        7rem 5rem 0 -0.05rem rgb(93, 253, 0),       
+        8rem 5rem 0 -0.05rem rgb(93, 253, 0),       
+        9rem 5rem 0 -0.05rem rgb(93, 253, 0), 
+        /* row 7 */      
+        2rem 6rem 0 -0.05rem rgb(93, 253, 0),       
+        3rem 6rem 0 -0.05rem rgb(93, 253, 0),       
+        4rem 6rem 0 -0.05rem rgb(93, 253, 0),       
+        5rem 6rem 0 -0.05rem rgb(93, 253, 0),       
+        6rem 6rem 0 -0.05rem rgb(93, 253, 0),
+        7rem 6rem 0 -0.05rem rgb(93, 253, 0),       
+        8rem 6rem 0 -0.05rem rgb(93, 253, 0),       
+        9rem 6rem 0 -0.05rem rgb(93, 253, 0),       
+        10rem 6rem 0 -0.05rem rgb(93, 253, 0),   
+        /* row 8 */       
+        1rem 7rem 0 -0.05rem rgb(93, 253, 0),       
+        2rem 7rem 0 -0.05rem rgb(93, 253, 0),       
+        3rem 7rem 0 -0.05rem rgb(93, 253, 0),       
+        4rem 7rem 0 -0.05rem rgb(93, 253, 0),       
+        5rem 7rem 0 -0.05rem rgb(93, 253, 0),       
+        6rem 7rem 0 -0.05rem rgb(93, 253, 0),
+        7rem 7rem 0 -0.05rem rgb(93, 253, 0),       
+        8rem 7rem 0 -0.05rem rgb(93, 253, 0),       
+        9rem 7rem 0 -0.05rem rgb(93, 253, 0),       
+        10rem 7rem 0 -0.05rem rgb(93, 253, 0),       
+        11rem 7rem 0 -0.05rem rgb(93, 253, 0),  
+        /* row 9 */       
+        3rem 8rem 0 -0.05rem rgb(93, 253, 0),       
+        4rem 8rem 0 -0.05rem rgb(93, 253, 0),       
+        5rem 8rem 0 -0.05rem rgb(93, 253, 0),       
+        6rem 8rem 0 -0.05rem rgb(93, 253, 0),
+        7rem 8rem 0 -0.05rem rgb(93, 253, 0),       
+        8rem 8rem 0 -0.05rem rgb(93, 253, 0),       
+        9rem 8rem 0 -0.05rem rgb(93, 253, 0),  
+        /* row 10 */      
+        2rem 9rem 0 -0.05rem rgb(93, 253, 0),       
+        3rem 9rem 0 -0.05rem rgb(93, 253, 0),       
+        4rem 9rem 0 -0.05rem rgb(93, 253, 0),       
+        5rem 9rem 0 -0.05rem rgb(93, 253, 0),       
+        6rem 9rem 0 -0.05rem rgb(93, 253, 0),
+        7rem 9rem 0 -0.05rem rgb(93, 253, 0),       
+        8rem 9rem 0 -0.05rem rgb(93, 253, 0),       
+        9rem 9rem 0 -0.05rem rgb(93, 253, 0),       
+        10rem 9rem 0 -0.05rem rgb(93, 253, 0),     
+        /* row 11 */      
+        1rem 10rem 0 -0.05rem rgb(93, 253, 0),       
+        2rem 10rem 0 -0.05rem rgb(93, 253, 0),       
+        3rem 10rem 0 -0.05rem rgb(93, 253, 0),       
+        4rem 10rem 0 -0.05rem rgb(93, 253, 0),       
+        5rem 10rem 0 -0.05rem rgb(93, 253, 0),       
+        6rem 10rem 0 -0.05rem rgb(93, 253, 0),
+        7rem 10rem 0 -0.05rem rgb(93, 253, 0),       
+        8rem 10rem 0 -0.05rem rgb(93, 253, 0),       
+        9rem 10rem 0 -0.05rem rgb(93, 253, 0),       
+        10rem 10rem 0 -0.05rem rgb(93, 253, 0),       
+        11rem 10rem 0 -0.05rem rgb(93, 253, 0),  
+        /* row 12 */
+        0rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        1rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        2rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        3rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        4rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        5rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        6rem 11rem 0 -0.05rem rgb(93, 253, 0),
+        7rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        8rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        9rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        10rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        11rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        12rem 11rem 0 -0.05rem rgb(93, 253, 0),
+        /* row 13 */      
+        5rem 12rem 0 -0.05rem brown,       
+        6rem 12rem 0 -0.05rem brown,
+        7rem 12rem 0 -0.05rem brown 
+    }
+    100%{
+        box-shadow: 
+        /* row 1 */     
+        6rem 0rem 0 -0.05rem rgb(93, 253, 0),
+        /* row 2 */       
+        5rem 1rem 0 -0.05rem rgb(93, 253, 0),       
+        6rem 1rem 0 -0.05rem rgb(93, 253, 0),
+        7rem 1rem 0 -0.05rem rgb(93, 253, 0),  
+        /* row 3 */       
+        4rem 2rem 0 -0.05rem rgb(93, 253, 0),       
+        5rem 2rem 0 -0.05rem rgb(93, 253, 0),       
+        6rem 2rem 0 -0.05rem rgb(93, 253, 0),
+        7rem 2rem 0 -0.05rem rgb(155, 7, 160),        
+        8rem 2rem 0 -0.05rem rgb(93, 253, 0),   
+        /* row 4 */       
+        3rem 3rem 0 -0.05rem rgb(93, 253, 0),       
+        4rem 3rem 0 -0.05rem rgb(93, 253, 0),       
+        5rem 3rem 0 -0.05rem rgb(93, 253, 0),       
+        6rem 3rem 0 -0.05rem rgb(93, 253, 0),
+        7rem 3rem 0 -0.05rem rgb(93, 253, 0),       
+        8rem 3rem 0 -0.05rem rgb(93, 253, 0),       
+        9rem 3rem 0 -0.05rem rgb(93, 253, 0), 
+        /* row 5 */        
+        4rem 4rem 0 -0.05rem rgb(93, 253, 0),       
+        5rem 4rem 0 -0.05rem rgb(93, 253, 0),       
+        6rem 4rem 0 -0.05rem rgb(93, 253, 0),
+        7rem 4rem 0 -0.05rem rgb(93, 253, 0),       
+        8rem 4rem 0 -0.05rem rgb(93, 253, 0), 
+        /* row 6 */       
+        3rem 5rem 0 -0.05rem rgb(93, 253, 0),       
+        4rem 5rem 0 -0.05rem rgb(93, 253, 0),       
+        5rem 5rem 0 -0.05rem rgb(93, 253, 0),       
+        6rem 5rem 0 -0.05rem rgb(93, 253, 0),
+        7rem 5rem 0 -0.05rem rgb(93, 253, 0),       
+        8rem 5rem 0 -0.05rem rgb(8, 129, 228),        
+        9rem 5rem 0 -0.05rem rgb(93, 253, 0), 
+        /* row 7 */      
+        2rem 6rem 0 -0.05rem rgb(93, 253, 0),       
+        3rem 6rem 0 -0.05rem rgb(93, 253, 0),       
+        4rem 6rem 0 -0.05rem rgb(171, 6, 204), 
+        5rem 6rem 0 -0.05rem rgb(93, 253, 0),       
+        6rem 6rem 0 -0.05rem rgb(93, 253, 0),
+        7rem 6rem 0 -0.05rem rgb(93, 253, 0),       
+        8rem 6rem 0 -0.05rem rgb(93, 253, 0),       
+        9rem 6rem 0 -0.05rem rgb(93, 253, 0),       
+        10rem 6rem 0 -0.05rem rgb(93, 253, 0),   
+        /* row 8 */       
+        1rem 7rem 0 -0.05rem rgb(93, 253, 0),       
+        2rem 7rem 0 -0.05rem rgb(93, 253, 0),       
+        3rem 7rem 0 -0.05rem rgb(93, 253, 0),       
+        4rem 7rem 0 -0.05rem rgb(93, 253, 0),       
+        5rem 7rem 0 -0.05rem rgb(93, 253, 0),       
+        6rem 7rem 0 -0.05rem rgb(93, 253, 0),
+        7rem 7rem 0 -0.05rem rgb(93, 253, 0),       
+        8rem 7rem 0 -0.05rem rgb(93, 253, 0),       
+        9rem 7rem 0 -0.05rem rgb(93, 253, 0),       
+        10rem 7rem 0 -0.05rem rgb(93, 253, 0),       
+        11rem 7rem 0 -0.05rem rgb(93, 253, 0),  
+        /* row 9 */       
+        3rem 8rem 0 -0.05rem rgb(93, 253, 0),       
+        4rem 8rem 0 -0.05rem rgb(93, 253, 0),       
+        5rem 8rem 0 -0.05rem rgb(93, 253, 0),       
+        6rem 8rem 0 -0.05rem rgb(93, 253, 0),
+        7rem 8rem 0 -0.05rem rgb(93, 253, 0),       
+        8rem 8rem 0 -0.05rem rgb(93, 253, 0),       
+        9rem 8rem 0 -0.05rem rgb(93, 253, 0),  
+        /* row 10 */      
+        2rem 9rem 0 -0.05rem rgb(93, 253, 0),       
+        3rem 9rem 0 -0.05rem rgb(93, 253, 0),       
+        4rem 9rem 0 -0.05rem rgb(93, 253, 0),       
+        5rem 9rem 0 -0.05rem rgb(93, 253, 0),       
+        6rem 9rem 0 -0.05rem rgb(93, 253, 0),
+        7rem 9rem 0 -0.05rem rgb(93, 253, 0),       
+        8rem 9rem 0 -0.05rem rgb(93, 253, 0),       
+        9rem 9rem 0 -0.05rem rgb(93, 253, 0),       
+        10rem 9rem 0 -0.05rem rgb(93, 253, 0),     
+        /* row 11 */      
+        1rem 10rem 0 -0.05rem rgb(93, 253, 0),       
+        2rem 10rem 0 -0.05rem rgb(93, 253, 0),       
+        3rem 10rem 0 -0.05rem rgb(93, 253, 0),       
+        4rem 10rem 0 -0.05rem rgb(93, 253, 0),       
+        5rem 10rem 0 -0.05rem rgb(93, 253, 0),       
+        6rem 10rem 0 -0.05rem rgb(93, 253, 0),
+        7rem 10rem 0 -0.05rem rgb(93, 253, 0),       
+        8rem 10rem 0 -0.05rem rgb(241, 219, 17),
+        9rem 10rem 0 -0.05rem rgb(93, 253, 0),       
+        10rem 10rem 0 -0.05rem rgb(93, 253, 0),       
+        11rem 10rem 0 -0.05rem rgb(93, 253, 0), 
+        /* row 12 */
+        0rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        1rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        2rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        3rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        4rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        5rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        6rem 11rem 0 -0.05rem rgb(93, 253, 0),
+        7rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        8rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        9rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        10rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        11rem 11rem 0 -0.05rem rgb(93, 253, 0),       
+        12rem 11rem 0 -0.05rem rgb(93, 253, 0),
+        /* row 13 */      
+        5rem 12rem 0 -0.05rem brown,       
+        6rem 12rem 0 -0.05rem brown,
+        7rem 12rem 0 -0.05rem brown 
+    }
+}
